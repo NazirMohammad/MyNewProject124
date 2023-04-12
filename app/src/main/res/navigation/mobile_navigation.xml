@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/loginFragment">
+
+    <fragment
+        android:id="@+id/navigation_alcoholic"
+        android:name="com.example.mynewproject.ui.alcoholiccontent.AlcoholicFragment"
+        android:label="@string/title_alcoholiccontent"
+        tools:layout="@layout/fragment_alcoholic" >
+        <action
+            android:id="@+id/action_navigation_alcoholic_to_detailsFragment"
+            app:destination="@id/detailsFragment"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_category"
+        android:name="com.example.mynewproject.ui.category.CategoryFragment"
+        android:label="@string/title_category"
+        tools:layout="@layout/fragment_category" >
+        <action
+            android:id="@+id/action_navigation_category_to_detailsFragment"
+            app:destination="@id/detailsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_ingridient"
+        android:name="com.example.mynewproject.ui.ingridient.IngridientFragment"
+        android:label="@string/title_ingridient"
+        tools:layout="@layout/fragment_ingrident" >
+        <action
+            android:id="@+id/action_navigation_ingridient_to_detailsFragment"
+            app:destination="@id/detailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.mynewproject.ui.login.LoginFragment"
+        android:label="Login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_navigation_alcoholic"
+            app:destination="@id/navigation_alcoholic" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailsFragment"
+        android:name="com.example.mynewproject.DetailsFragment"
+        android:label="fragment_details"
+        tools:layout="@layout/fragment_details" />
+</navigation>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+    android:background="@color/fillColor1"
+        android:elevation="8dp"
+        app:cardCornerRadius="30dp"
+        android:id="@+id/drink_details"
+        app:cardUseCompatPadding="true"
+        tools:context=".DetailsFragment">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/purple_200"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:backgroundTint="@color/fillColor2"
+            android:padding="50dp">
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:id="@+id/imageView"
+                android:elevation="12dp"
+                app:cardCornerRadius="40dp"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="10dp"
+                android:innerRadius="0dp"
+                android:shape="ring"
+                android:layout_marginVertical="10dp"
+                android:thicknessRatio="1.9"/>
+
+
+            <TextView
+                android:id="@+id/people_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="30dp"
+                android:text="Gin is a distilled alcoholic drink that derives its predominant flavour from juniper berries (Juniperus communis).  Gin is one of the broadest categories of spirits, all of various origins, styles, and flavour profiles, that revolve around juniper as a common ingredient." />
+
+
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>

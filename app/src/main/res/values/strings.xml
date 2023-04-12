@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">MyNewProject</string>
+    <string name="title_alcoholiccontent">AlcoholicContent</string>
+    <string name="title_category">Category</string>
+    <string name="title_ingridient">Ingridient</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome!"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="action_sign_register">Register</string>
+    <string name="action_sign_google">Login with Google</string>
+    <string name="action_sign_facebook">Login with Facebook</string>
+
+    <string name="action_log_in">Login</string>
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+//facebook
+    <string name="facebook_app_id">1582027738989790</string>
+    <string name="fb_login_protocol_scheme">fb1582027738989790</string>
+    <string name="facebook_client_token">a57d5c117b4bd422ef517b6df7dc69ed</string>
+
+
+
+
+
+
+
+
+
+</resources>
